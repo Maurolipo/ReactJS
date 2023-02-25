@@ -1,15 +1,24 @@
 import { CartWidget } from "../CartWidget/CartWidget";
 import { Logo } from "../Logo.jsx/Logo";
-import styles from "./Navbar.module.css"
+import styles from "./Navbar.module.css";
 
 export const Navbar = () => {
   return (
     <div className={styles.containerNavbar}>
-        <Logo />
+      <Logo />
       <ul className={styles.containerList}>
-        <li>Cajas</li>
-        <li>Skins</li>
-        <li>Todo</li>
+        <li>
+          {" "}
+          <a href="#"> Cajas</a>
+        </li>
+        <li>
+          {" "}
+          <a href="#"> Skins</a>
+        </li>
+        <li>
+          {" "}
+          <a href="#"> Todo</a>
+        </li>
       </ul>
       <CartWidget />
     </div>
