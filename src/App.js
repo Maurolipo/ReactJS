@@ -1,8 +1,11 @@
+import { Footer } from "./components/Footer/Footer";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div>
-      <h1>hola mundo</h1>
+      <Navbar />
+      <Footer />
     </div>
   );
 }
