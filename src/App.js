@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <ItemListContainer />
+      <ItemListContainer greeting={"Bienvenido a Skins CSGO"} />
       <ProductCard />
       <Footer />
     </div>
